@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
-import List from './List';
-import data from './data';
+import List from './List.jsx';
+import data from './data.js';
 
 function App() {
   const [people, setPeople] = useState(data);
