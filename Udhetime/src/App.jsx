@@ -20,16 +20,18 @@ function App() {
     try {
       const response = await fetch(url);
       const tours = await response.json();
-      setLoading(false);
       setTours(tours);
+      setLoading(false);
     } catch (error) {
       setLoading(false);
       console.log(error);
     }
   };
+
   useEffect(() => {
     fetchTours();
   }, []);
+
   if (loading) {
     return (
       <main>
