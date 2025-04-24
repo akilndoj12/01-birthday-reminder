@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import Loading from './Loading';
-import Tours from './Tours';
+import Loading from './Loading.jsx';
+import Tours from './Tours.jsx';
 import './App.css';
 // ATTENTION!!!!!!!!!!
 // I SWITCHED TO PERMANENT DOMAIN

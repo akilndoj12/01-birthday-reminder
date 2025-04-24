@@ -1,4 +1,4 @@
-import Tour from './Tour';
+import Tour from './Tour.jsx';
 const Tours = ({ tours, removeTour }) => {
   return (
     <section>
