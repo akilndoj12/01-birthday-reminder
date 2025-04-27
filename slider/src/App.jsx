@@ -56,6 +56,7 @@ function App() {
             </article>
           );
         })}
+
         <button className='prev' onClick={() => setIndex(index - 1)}>
           <FiChevronLeft />
         </button>
